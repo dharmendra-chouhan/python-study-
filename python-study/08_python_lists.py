@@ -40,3 +40,7 @@ thislist1 = ["apple", "banana", "cherry"]
 print(thislist1)
 thislist1.clear()
 print(thislist1)
+
+#Using the list() constructor to make a List:
+thislist = list(("apple", "banana", "cherry")) # note the double round-brackets
+print(thislist)
